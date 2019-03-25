@@ -23,10 +23,6 @@ pm2 start app.js --name seo-service # 启动服务
 ## 生产机器nginx配置
 
 ```nginx
-upstream seoservice {
-    server 127.0.0.1:3001; # 这里的端口号写你node.js运行的端口号，也就是要代理的端口号，我的项目跑在8081端口上
-    keepalive 64;
-}
 server {
     listen 3002; #这里的端口号是你要监听的端口号
     # server_name xxx;
@@ -42,6 +38,10 @@ server {
     }
 }
 ```
+
+## 访问地址
+
+> http://ip:3002/render?url=url
 
 ## 注意
 
