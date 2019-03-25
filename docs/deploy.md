@@ -48,6 +48,3 @@ server {
 1. 为了防止百度爬虫恶意爬取，希望实际环境流量有所限制。
 
 2. https和域名(可以生僻一点没关系，域名很珍贵哈)最好都能支持下
-
-3. seo-service项目地址
-  >https://gitlab.dxy.net/ECDFE/seo-service
