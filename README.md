@@ -16,7 +16,7 @@ npm start
 
 ### 文档
 
-
+[文档](https://github.com/JakeLaoyu/seo-service/blob/master/docs/deploy.md)
 
 ### 协议
 
